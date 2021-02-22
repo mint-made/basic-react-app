@@ -41,13 +41,13 @@ const App = () => {
   return (
     <div>
       <Header />
-      <Route path="/">
+      <Route path="/basic-react-app/">
         <Accordion items={items} />
       </Route>
-      <Route path="/list">
+      <Route path="/basic-react-app/list">
         <Search />
       </Route>
-      <Route path="/dropdown">
+      <Route path="/basic-react-app/dropdown">
         <Dropdown
           label="Select a Color"
           options={options}
@@ -55,7 +55,7 @@ const App = () => {
           onSelectedChange={setSelected}
         />
       </Route>
-      <Route path="/translate">
+      <Route path="/basic-react-app/translate">
         <Translate />
       </Route>
     </div>

@@ -14,7 +14,9 @@ const Route = ({ path, children }) => {
     };
   }, []);
 
-  return currentPath === path ? children : null;
+  return currentPath === path ? (
+    <div className="route-container">{children}</div>
+  ) : null;
 };
 
 export default Route;

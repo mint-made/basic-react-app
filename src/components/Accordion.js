@@ -23,7 +23,15 @@ const Accordion = ({ items }) => {
     );
   });
 
-  return <div className="ui styled accordion">{renderedItems}</div>;
+  return (
+    <React.Fragment>
+      <h3 className="ui header">
+        Welcome to my Basic React App. This was built to learn about React,
+        Hooks, route handling and API requests in React
+      </h3>
+      <div className="ui styled accordion">{renderedItems}</div>
+    </React.Fragment>
+  );
 };
 
 export default Accordion;
