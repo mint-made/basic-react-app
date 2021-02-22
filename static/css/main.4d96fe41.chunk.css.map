@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/style.css"],"names":[],"mappings":"AAAA,iBACE,WAAY,CACZ,eACF","file":"main.4d96fe41.chunk.css","sourcesContent":[".route-container {\n  margin: 10px;\n  max-width: 500px;\n}\n"]}
